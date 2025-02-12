@@ -15,7 +15,7 @@ Each dependency is a potential point of failure, vulnerability, maintenance and 
 Add this line to your application's Gemfile:
 
 ```sh
-plugin 'bundler-graph'
+plugin 'bundler-dependencies'
 ```
 
 And then execute:
@@ -27,7 +27,7 @@ $ bundle install
 Alternately, you can install the plugin directly:
 
 ```sh
-$ bundle plugin install bundle-dependencies
+$ bundle plugin install bundler-dependencies
 ```
 
 ## Usage
